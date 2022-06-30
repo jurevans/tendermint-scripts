@@ -33,7 +33,7 @@ Example output:
 ```bash
 Querying latest block height(s):
 
-    IP				PORT	Height
+    IP			PORT	Height
 
 [*] 192.168.10.123	26657	72839
 [*] 55.123.11.56	26657	77378
