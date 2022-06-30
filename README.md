@@ -3,12 +3,20 @@
 Simple utility scripts intended to make life easier when working with Tendermint RPC queries.
 
 ## Table of Contents
+
 - [height](#height)
 
 ## height
 
 `height.sh` is a crude script to check the height of any number of ledgers via the shell, useful for checking the
 sync status of a local ledger to compare with a remote ledger.
+
+### Dependencies
+
+This script requires the `jq` command for formatting of JSON data, as well as `curl`.
+
+- <https://stedolan.github.io/jq/>
+- <https://github.com/curl/curl>
 
 Example usage:
 
@@ -42,7 +50,6 @@ Querying latest block height(s):
 ### TODO
 
 - I intend to expand the functionality of this to provide greater utility, likely re-implementing in Rust with better
-JSON handling from Tendermint.
+  JSON handling from Tendermint.
 
 [Table of Contents](#table-of-contents)
-
