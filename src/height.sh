@@ -3,7 +3,7 @@
 DEFAULT_PORT=26657
 
 usage() {
-	cat << EOF >&2
+  cat << EOF >&2
 
 Usage: $0 [-h] [-v] <ip:port>
 
